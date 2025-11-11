@@ -1,4 +1,9 @@
-# penguine_c
+# cecs
+
+An attempt at a entity-component-system implementation in just c
+I'm not sure how useful it would be, but it was pretty fun to make and pretty much just worked. perhaps a way to make it useful would be to implement a stdc++ - style "map" with systems, components and entities accessible with strings
+
+
 
 A C project created with the VSCode C Project Generator extension.
 
@@ -30,13 +35,13 @@ cmake ..
 cmake --build .
 
 # Run
-./penguine_c
+./cecs
 ```
 
 ## Project Structure
 
 ```
-penguine_c/
+cecs/
 ├── .vscode/              # VSCode configuration
 ├── src/                  # Source files
 ├── include/              # Header files
